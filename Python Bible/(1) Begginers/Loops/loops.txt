@@ -1,0 +1,51 @@
+\\\\\
+LOOPS
+/////
+
+• A loop is a programming structure that executes the same code over and over again, as long as a certian condition is met.
+
+
+\\\\\\\\\\
+WHILE LOOP
+//////////
+
+• A while loop executes the code in its block while a condition is met.
+• View While loop Flowchart in Images folder.
+• As you can see, it goes in circles until the codition returns False.
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\
+ENDLESS LOOP (INFINITE LOOP)
+///////////////////////////
+
+while True:
+    print("This will print forever")
+
+\\\\\\\\
+FOR LOOP
+////////
+
+• For loop works differentyl. Here we don't have a condition. This loop type is used to iterate over sequences.
+
+numbers = [10, 20, 30, 40]
+
+for number in numbers:
+    print(number)
+
+• View for loop flowchart in images.
+
+\\\\\\\\\\\\\\
+RANGE FUNCTION
+//////////////
+
+for i in range(100):
+    print(i)
+
+• This is simple way to print numbers up to 100.
+
+for i in range(20, 80):
+    print(i)
+
+• Here we will print numbers from 20 up to 80.
+
+• range(start, end, step)
+

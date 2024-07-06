@@ -1,0 +1,9 @@
+\\\\\\\\\\\\\\
+INPUT FUNCTION:
+//////////////
+
+E.g:
+• name = input("Please enter your name: ") 
+• number = int(input("Enter number: "))
+
+• Input function always recieves string value, so we have to be careful about math operations on inputs (we have to convert input's data type to int or float)

@@ -1,0 +1,37 @@
+\\\\\\\\\\
+CONDITIONS:
+//////////
+
+IF,ELIF,ELSE
+
+• Basically, a condition needs to return True, so that our script continues with the code in its block.
+• The three important keywords here are if, elif and else.
+
+if number < 10 :
+    print ( "Your number is less than 10" )
+elif number > 10 :
+    print ( "Your number is greater than 10" )
+else :
+    print ( "Your number is 10" )
+
+• In this script, our first if-statement checks if number is less than 10. (comparisons always return True or False) If the return is True, the code that is indented here gets executed.
+• We use colons and indentations to mark code blocks in Python.
+• If this condition returns False, it continues to the elif-block and checks if this condition is met.
+• You can have as many elif-blocks as you want.
+• If no condition is met, we get into the else-block.
+
+• View Flowchart in Images folder.
+
+\\\\\\\\\\\\\\\\\\\\
+NESTED IF-STATEMENTS:
+////////////////////
+
+if number % 2 == 0 :
+    if number == 0 :
+        print ( "Your number is even but zero" )
+    else :
+        print ( "Your number is even" )
+else :
+    print ( "Your number is odd" )
+
+• So, here we have the first condition, which checks if the number is even. When it's even it then checks if it's a zero or not.

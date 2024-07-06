@@ -1,0 +1,43 @@
+\\\\\\\\\\\\\\\\\\\\\\\
+LOOP CONTROL STATEMENTS
+///////////////////////
+
+\\\\\\\\\\\\\\\
+BREAK STATEMENT
+///////////////
+
+number = 0
+while number < 10:
+    number += 1
+    if number == 5:
+        break
+    print(number)
+
+• Here we have a simple counting loop. AS soon as the number reaches the value five, we execute a break statement and the script continues with the rest of the code. (It breaks)
+
+\\\\\\\\\\\\\\\\\\
+CONTINUE STATEMENT
+//////////////////
+
+number = 0
+while number < 10:
+    number += 1
+    if number == 5:
+        continue
+    print(number)
+
+• In this example, we always increase the number by one and then print it. But if the number value is five, we skip the iteration. So the output is: 1 2 3 4 6 7 8 9 10
+
+\\\\\\\\\\\\\
+PASS STATEMENT
+/////////////
+
+if number == 10:
+    pass
+else:
+    pass
+
+while number < 10:
+    pass
+
+• Sometimes you want to write your basic code structure, without implementing the logic yet. In this case, we can use the pass statement, in order to fill the code blocks. Otherwise, we can't run the script.

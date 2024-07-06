@@ -1,0 +1,48 @@
+\\\\\\\\\\\\\\\\\\\\
+ARITHMETIC OPERATORS:
+////////////////////
+
+• +       Addition
+• -       Substraction
+• *       Multiplication
+• /       Division
+• %       Modulus
+• **      Exponent
+• //      Floor Division
+
+\\\\\\\\\\\\\\\\\\\\
+ASSIGNMENT OPERATORS:
+////////////////////
+
+• =       Assigns a value to a variable
+• +=      Adds a value to a variable
+• -=      Subtracts a value from a variable
+• *=      Multiplies a value with a variable
+• /=      Divides the variable by a value
+• %=      Assigns the remainder of a division
+• **=     Assigns the result of a exponentiation
+• //=     Assigns the result of a floor division
+
+\\\\\\\\\\\\\\\\\\\\
+COMPARISON OPERATORS:
+////////////////////
+
+• ==      Equal 
+• !=      Not Equal 
+• >       Greater Than
+• <       Less Than 
+• >=      Greater or Equal
+• <=      Less or Equal
+
+\\\\\\\\\\\\\\\\\
+LOGICAL OPERATORS:
+/////////////////
+
+• or      At least one has to be True
+• and     Both have to be True
+• not     Negates the input
+
+True or True → True           True and True → True
+True or False → True          False and False → False
+False or False → False        not True → False
+True and False → False        not False → True

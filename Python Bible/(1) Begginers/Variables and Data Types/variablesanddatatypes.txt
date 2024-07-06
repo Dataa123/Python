@@ -1,0 +1,46 @@
+\\\\\\\\\\\\\\\\\\\\
+NUMERICAL DATA TYPES:
+////////////////////
+
+• Integer (keyword - int)
+• Float (keyword - float)
+• Complex (keyword - complex)
+
+A complex number is just a number that has a real and an imaginary component.
+\\\\\\\
+STRINGS:
+///////
+
+• A string is just a basic sequence of characters or basically a text.
+• Strings always need to be surrounded by quotation marks.
+• keyword - str
+
+\\\\\\\\
+BOOLEANS:
+////////
+
+• Booleans can only have one of two values, namely True or False.
+• It's a binary data type.
+• It is used in conditions and loops.
+• keyword - bool
+
+\\\\\\\\\
+SEQUENCES:
+/////////
+
+• List (keyword - list)
+• Tuple (keyword - tuple)
+• Dictionary (keyword - dict)
+
+\\\\\\\\\\\\\\\\\\
+CREATING VARIABLES:
+//////////////////
+
+• You are not allowed to use reserved keywords like int or dict for variable names.
+• Name is not allowed to start with a number or a special character other than the underline.
+
+\\\\\\\\\\\
+TYPECASTING:
+///////////
+
+• Typecasting is done by using the specific data type function.

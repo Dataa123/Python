@@ -1,0 +1,130 @@
+\\\\\
+LISTS
+/////
+
+• In python, we define lists by using square brackets. We put the elements in between of those and separate them by commas. The elements of a list can have any data type and we can also mix them.
+
+numbers = [10, 22, 6, 1, 29]
+names = ["John", "Alex", "Bob"]
+mixed = ["Anna", 20, 28.12, True]
+
+\\\\\\\\\\\\\\\\
+ACCESSING VALUES
+////////////////
+
+• In order to access values of a sequence, we need to first talk about indices. The index is more or less the position of the element. What's important here is that we start counting from zero. So the first element has the index zero, the second has the index one and so on. We can then access the element by using the index.
+
+print(numbers[2])
+print(mixed[1])
+print(names[0])
+
+• We can also define a range that we want to access.
+
+print(numbers[1:3]) (22 and 6)
+print(numbers[:3]) (10, 22 and 6)
+print(numbers[1:]) (22, 6, 1 and 29)
+
+\\\\\\\\\\\\\\\\\\
+MODIFYING ELEMENTS
+//////////////////
+
+numbers[1] = 10
+names[2] = "Jack"
+
+• This is the way to change elements in list. (Lists are mutable)
+
+\\\\\\\\\\\\\\
+LIST OPERATORS
+//////////////
+
+         OPERATION                   RESULT
+[10, 20, 30] + [40, 50, 60] [10, 20, 30, 40, 50, 60]
+      [10, "Bob"] * 3       [10, "Bob", 10, "Bob", 10, "Bob"] 
+
+\\\\\\\\\\\\\\
+LIST FUNCTIONS
+//////////////
+
+• len(list) - Returns the length of a list
+• max(list) - Returns the item with maximum value
+• min(list) - Returns the item with minimum value
+• list(element) - Typecasts element into list
+• list.append(x) - Appends element to the list
+• list.count(x) - Counts how many times an element appears in the list
+• list.index(x) - Returns the first index at which the given element occurs
+• list.pop(x) - Removes and returns last element
+• list.reverse() - Reverses the order of the elements
+• list.sort() - Sorts the elements of a list
+
+\\\\\\
+TUPLES
+//////
+
+• This sequence type is very similar to the list. It's the tuple. The only difference between a list and a tuple is that a tuple is immutable. We can't manipulate it.
+
+tpl = (10, 20, 30)
+
+• Notice that a tuple is defined by using parentheses rather than square brackets.
+
+\\\\\\\\\\\\\\\
+TUPLE FUNCTIONS
+///////////////
+
+• Basically, all the reading and accessing functions like len, min and max stay the same and can be used with tuples. But of course it is not possible to use any modifying or appending functions.
+
+\\\\\\\\\\\\
+DICTIONARIES
+////////////
+
+• A dictionary works a bit like a lexicn. One element in this data structure points to another. We are talking about key-value pairs. Every entry in this sequence has a key and a respective value. In other programming languages this structure is called hash map.
+
+dictionary = {
+    "Name": "John",
+    "Age": 25,
+    "Height": 6.1
+}
+
+• We define dictionaries by using curly brackets and the key-value pairs are separated by commas. The key and the value themselves are separated by colons. On the left side there is the key and on the right side the according value.
+
+\\\\\\\\\\\\\\\\
+ACCESSING VALUES
+////////////////
+
+print(dictionary["Name"])
+print(dictionary["Age"])
+print(dictionary["Height"])
+
+• If there were multiple keys with the same name, we couldn’t get a result because we wouldn’t know which value we are talking about.
+
+\\\\\\\\\\\\\\\\\\\\
+DICTIONARY FUNCTIONS
+////////////////////
+
+• len(dict) - Returns the length of a dictionary
+• str(dict) - Returns the dictionary displayed as a string
+• dict.clear() - Removes all elements from a dictionary
+• dict.copy() - Returns a copy of the dictionary
+• dict.fromkeys() - Returns a new dictionary with the same keys but empty values
+• dict.get(key) - Returns the value of the given key
+• dict.has_key(key) - Returns if the dictionary has a certain key or not
+• dict.items() - Returns all the items in a list of tuples
+• dict.keys() - Returns a list of all the keys
+• dict.update(dict2) - Add the content of another dictionary to an existing one
+• dict.values() - Returns a list of all the values
+
+\\\\\\\\\\\\\\\\\\\\
+MEMBERSHIP OPERATORS
+////////////////////
+
+• We use membership operators to check if an element is a member of a sequence, but also to iterate over sequences.
+
+list1 = [10, 20, 30, 40, 50]
+
+print(20 in list1) - True
+print(60 in list1) - False
+print(60 not in list1) - True
+
+--------------------------------------------------------------------------------------------------------------------
+
+for x in list1:
+    print(x)
